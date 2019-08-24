@@ -26,6 +26,6 @@ public class TestDriver {
 									aDateAndPlaceOfBirth,
 									aStreetUSAddress);
 		
-		aPerson.toString();
+		System.out.print(aPerson.toString());
 	}
 }

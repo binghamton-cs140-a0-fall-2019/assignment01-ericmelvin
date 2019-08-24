@@ -16,6 +16,11 @@ public class StreetUSAddress {
 			String state, String zip) {
       //TODO use the parameters to set the values of 
       //the fields above
+		addressLine1 = address1;
+		addressLine2 = address2;
+		city = cty;
+		stateAbbreviation = state;
+		zipCode = zip;
 	}
 	/**
 	 * 

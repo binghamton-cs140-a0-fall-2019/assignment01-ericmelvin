@@ -79,13 +79,6 @@ public class Person {
 	public StreetUSAddress getAddress() {
 		return address;
 	}
-	
-	@Override
-	public String toString() {
-		System.out.print("Test Print");
-		return "bye error";
-	}
-	
 // TODO Override the public String toString() method that is similar to the 
 // toString of the StreetUSAddress class and will print a person as:
 // Jane Doe (111-22-3333), 
@@ -93,4 +86,8 @@ public class Person {
 // 123 Main Street
 // Apt 1B
 // Binghamton, NY 13905
+	@Override
+	public String toString() {
+		return String.format("%s %s %s\n%s\n%s", firstNames, lastNames, ssn, placeDob, address);
+	}
 }
