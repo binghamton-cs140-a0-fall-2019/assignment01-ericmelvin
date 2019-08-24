@@ -88,6 +88,9 @@ public class Person {
 // Binghamton, NY 13905
 	@Override
 	public String toString() {
-		return String.format("%s %s %s\n%s\n%s", firstNames, lastNames, ssn, placeDob, address);
+		return String.format("%s %s %s\n%s\n%s",
+								firstNames, lastNames, ssn,
+								placeDob,
+								address);
 	}
 }

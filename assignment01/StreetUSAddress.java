@@ -28,7 +28,7 @@ public class StreetUSAddress {
 	 */
 	public String getAddressLine1() {
     // TODO return the appropriate String
-		return "testing";
+		return addressLine1;
 	}
 	/**
 	 * 
@@ -36,7 +36,7 @@ public class StreetUSAddress {
 	 */
 	public String getAddressLine2() {
     // TODO return the appropriate String
-		return "testing";
+		return addressLine2;
 	}
 	/**
 	 * 
@@ -44,7 +44,7 @@ public class StreetUSAddress {
 	 */
 	public String getCity() {
     // TODO return the appropriate String
-		return "testing";
+		return city;
 	}
 	/**
 	 * 
@@ -52,7 +52,7 @@ public class StreetUSAddress {
 	 */
 	public String getStateAbbreviation() {
     // TODO return the appropriate String
-		return "testing";
+		return stateAbbreviation;
 	}
 	/**
 	 * 
@@ -60,7 +60,7 @@ public class StreetUSAddress {
 	 */	
 	public String getZipCode() {
     // TODO return the appropriate String
-		return "testing";
+		return zipCode;
 	}
 	@Override
 	public String toString() {

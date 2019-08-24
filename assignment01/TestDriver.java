@@ -54,5 +54,12 @@ public class TestDriver {
 		
 		// Testing toString method
 		System.out.print(aPerson.toString());
+		
+		// Testing get methods for StreetUSAddress
+		System.out.println("\n\n" + aStreetUSAddress.getAddressLine1());
+		System.out.println(aStreetUSAddress.getAddressLine2());
+		System.out.println(aStreetUSAddress.getCity());
+		System.out.println(aStreetUSAddress.getStateAbbreviation());
+		System.out.println(aStreetUSAddress.getZipCode());
 	}
 }
