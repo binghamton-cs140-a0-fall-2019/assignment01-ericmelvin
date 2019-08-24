@@ -99,14 +99,16 @@ public class DateAndPlaceOfBirth {
 	}
 	/**
 	 * The method hasSameBirthDayAs returns true if the date of birth of
-	 * this DateAndPlaceOfBirth ahs the same month and day as the date of birth of
+	 * this DateAndPlaceOfBirth has the same month and day as the date of birth of
 	 * other, otherwise false.
 	 * @param other the DateAndPlaceOfBirth for comparison
 	 * @return true if this DateAndPlaceOfBirth has a date of birth
 	 * the same day and month as the date of birth of other and false otherwise
 	 */
 	public boolean hasSameBirthDayAs(DateAndPlaceOfBirth other) {
-  //TODO complete this method
+	//TODO complete this method
+		System.out.print("Test Print");
+		return true; // Testing
   }
 	@Override
 	public String toString() {

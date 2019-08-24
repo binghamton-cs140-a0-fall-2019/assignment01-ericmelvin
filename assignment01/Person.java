@@ -5,12 +5,14 @@ package assignment01;
  * @author CS 140
  *
  */
+ 
 public class Person {
 	private String firstNames; 
 	private String lastNames;
 	private int ssn;
 	private DateAndPlaceOfBirth placeDob;
 	private StreetUSAddress address;
+	
 	/**
 	 * 
 	 * @param firstNames
@@ -18,7 +20,7 @@ public class Person {
 	 * @param ssn
 	 * @param placeDob
 	 * @param address
-	 */
+	 */	 
 	public Person(String fstNames, String lstNames, String ssnString, DateAndPlaceOfBirth pdob,
 			StreetUSAddress addr) {
 		firstNames = fstNames;
@@ -63,6 +65,27 @@ public class Person {
 
 	}
 // TODO provide the getter methods for placeDob and address 
+	/**
+	* Getter method for placeDob
+	* @return the place for the date of birth
+	*/
+	public DateAndPlaceOfBirth getPlaceDob() {
+		return placeDob;
+	}
+	/**
+	* Getter method for address
+	* @return the address
+	*/
+	public StreetUSAddress getAddress() {
+		return address;
+	}
+	
+	@Override
+	public String toString() {
+		System.out.print("Test Print");
+		return "bye error";
+	}
+	
 // TODO Override the public String toString() method that is similar to the 
 // toString of the StreetUSAddress class and will print a person as:
 // Jane Doe (111-22-3333), 
