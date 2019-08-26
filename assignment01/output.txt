@@ -97,3 +97,10 @@ false
 false
 false
 false
+
+TESTS FOR StreetUSAddress.java:
+4 Moore Ave
+Binghamton, NY 13903
+5 Moore Ave
+Apt 2
+Binghamton, NY 13903
