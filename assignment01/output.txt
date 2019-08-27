@@ -110,3 +110,21 @@ Barrett Sweet 123456789
 Date and place of birth: 2000-01-02, Binghamton, NY, USA
 4 Moore Ave
 Binghamton, NY 13903
+
+TESTS FOR Computer.java:
+Dell, Intel i7, 16GB Memory, 500GB Hard Drive, Price: $1000.00 
+IBM, Intel i5, 32GB Memory, 2.0TB Solid State Drive, Price: $1200.00 
+HP, AMD, 64GB Memory, 2.8TB Hard Drive, Price: $1800.94 
+Compaq, Intel i3, 8GB Memory, 250GB Solid State Drive, Price: $799.99 
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Barrett Sweet 123456789
+Date and place of birth: 2000-01-02, Binghamton, NY, USA
+4 Moore Ave
+Binghamton, NY 13903
+Computers: [Dell, Intel i7, 16GB Memory, 500GB Hard Drive, Price: $1000.00 , IBM, Intel i5, 32GB Memory, 2.0TB Solid State Drive, Price: $1200.00 , HP, AMD, 64GB Memory, 2.8TB Hard Drive, Price: $1800.94 , Compaq, Intel i3, 8GB Memory, 250GB Solid State Drive, Price: $799.99 ]
+Computer List, Owner: Barrett Sweet 123456789
+Date and place of birth: 2000-01-02, Binghamton, NY, USA
+4 Moore Ave
+Binghamton, NY 13903
+Computers: [IBM, Intel i5, 32GB Memory, 2.0TB Solid State Drive, Price: $1200.00 , Compaq, Intel i3, 8GB Memory, 250GB Solid State Drive, Price: $799.99 ]
