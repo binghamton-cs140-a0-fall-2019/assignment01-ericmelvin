@@ -104,3 +104,9 @@ Binghamton, NY 13903
 5 Moore Ave
 Apt 2
 Binghamton, NY 13903
+
+TESTS FOR StreetUSAddress.java:
+Barrett Sweet 123456789
+Date and place of birth: 2000-01-02, Binghamton, NY, USA
+4 Moore Ave
+Binghamton, NY 13903

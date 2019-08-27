@@ -7,6 +7,8 @@ import java.io.PrintWriter;
 
 public class USAddressTester {
 	public static void main(String[] args) {
+		
+		// Declare two address objects
 		StreetUSAddress anAddress1 = new StreetUSAddress("4 Moore Ave",
 														"",
 														"Binghamton",
@@ -32,6 +34,7 @@ public class USAddressTester {
 		// and replace every System.out.print or System.out.println
 		// by output.print or output.println
 		
+		// Declare two address objects
 		StreetUSAddress anAddress12 = new StreetUSAddress("4 Moore Ave",
 														"",
 														"Binghamton",
@@ -48,8 +51,6 @@ public class USAddressTester {
 		output.println(anAddress22);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-		}
-		
-		
+		}	
 	}
 }
