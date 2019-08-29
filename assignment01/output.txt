@@ -128,3 +128,90 @@ Date and place of birth: 2000-01-02, Binghamton, NY, USA
 4 Moore Ave
 Binghamton, NY 13903
 Computers: [IBM, Intel i5, 32GB Memory, 2.0TB Solid State Drive, Price: $1200.00 , Compaq, Intel i3, 8GB Memory, 250GB Solid State Drive, Price: $799.99 ]
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 2000-01-02, Binghamton, NY, USA
+Date and place of birth: 2000-01-02, Rochester, NY, USA
+Date and place of birth: 1999-01-02, Corona Del Mar, CA, USA
+Date and place of birth: 1998-03-04, Stockholm, Sweden
+Date and place of birth: 1997-05-06, Tiajuana, Mexico
+false
+false
+false
+false
+false
+true
+true
+true
+true
+false
+false
+false
+true
+true
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+true
+false
+false
+false
+true
+true
+false
+false
+true
+true
+false
+false
+false
+false
+true
+true
+false
+false
+false
+false
+true
+true
+false
+false
+true
+true
+true
+false
+false
+false
+false
+true
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+true
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false

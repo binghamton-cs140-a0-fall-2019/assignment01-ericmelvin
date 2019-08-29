@@ -46,20 +46,6 @@ public class TestDriver {
 									aDateAndPlaceOfBirth,
 									aStreetUSAddress);
 		
-		// Testing hasSameBirthDayAs method
-		System.out.println("These birthday's should match (true)");
-		System.out.println(aDateAndPlaceOfBirth.hasSameBirthDayAs(anotherDateAndPlaceOfBirth));
-		System.out.println("These birthday's shouldn't match (false)");
-		System.out.println(aDateAndPlaceOfBirth.hasSameBirthDayAs(aThirdDateAndPlaceOfBirth));
-		
-		// Testing toString method
-		System.out.print(aPerson.toString());
-		
-		// Testing get methods for StreetUSAddress
-		System.out.println("\n\n" + aStreetUSAddress.getAddressLine1());
-		System.out.println(aStreetUSAddress.getAddressLine2());
-		System.out.println(aStreetUSAddress.getCity());
-		System.out.println(aStreetUSAddress.getStateAbbreviation());
-		System.out.println(aStreetUSAddress.getZipCode());
+		System.out.print(aDateAndPlaceOfBirth.hasSameBirthDayAs(anotherDateAndPlaceOfBirth));
 	}
 }
