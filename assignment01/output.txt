@@ -215,3 +215,19 @@ false
 false
 false
 false
+
+TESTS FOR SimpleDate.java:
+
+TESTS FOR SimpleDate.java:
+
+TESTS FOR SimpleDate.java:
+
+TESTS FOR SimpleDate.java:
+Less than dates - should print false
+false
+false
+false
+Greater than dates - should print true
+true
+true
+true

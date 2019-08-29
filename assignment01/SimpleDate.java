@@ -17,6 +17,7 @@ public class SimpleDate {
 		}
 	
 	/**
+	* function to combine a simple date object
 	* @param yr: year of date
 	* @param m: month of date
 	* @param d: day of date
@@ -29,14 +30,13 @@ public class SimpleDate {
 		returnValue.month = m;
 		returnValue.day = d;
 		
-		// Question: Why don't we just use the constructor to do this?
 		return returnValue;
 	}
 	
 	/**
 	* function to check if other date is before current date
 	* @param other: SimpleDate object 
-	* @return return true if other is greater than, false otherwise
+	* @return return true if other is greater than, false otherwise, same date is true
 	*/
 	public boolean before(SimpleDate other) {
 		if (year > other.year) {
