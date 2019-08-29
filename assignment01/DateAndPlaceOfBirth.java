@@ -111,7 +111,8 @@ public class DateAndPlaceOfBirth {
 
 		
 		// Compare dates
-		if (dateOfBirth.getMonth().equals(other.dateOfBirth.getMonth())) {
+		if ((dateOfBirth.getMonth().equals(other.dateOfBirth.getMonth()))
+			&& (dateOfBirth.getDayOfMonth() == other.dateOfBirth.getDayOfMonth())) {
 			return true;
 		} else { 
 			return false;
