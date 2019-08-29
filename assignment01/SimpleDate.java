@@ -57,5 +57,4 @@ public class SimpleDate {
 	public String toString() {
 		return String.format("%d %d %d", year, month, day);
 	}
-	
 }

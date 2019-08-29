@@ -7,7 +7,6 @@ import java.io.PrintWriter;
 
 public class ComputerOwnerTester {
 	public static void main(String[] args) {
-		
 		// Create DateAndPlaceOfBirth object
 		DateAndPlaceOfBirth aDateAndPlaceOfBirth = new DateAndPlaceOfBirth(2000,
 																			01,
@@ -22,6 +21,7 @@ public class ComputerOwnerTester {
 														"Binghamton",
 														"NY",
 														"13903");
+		
 		// Create Person object
 		Person aPerson = new Person("Barrett",
 									"Sweet",
@@ -59,7 +59,6 @@ public class ComputerOwnerTester {
 											true,
 											799.99);
 		
-
 		// Create computerOwner object
 		ComputerOwner aComputerOwner = new ComputerOwner(aPerson);
 		

@@ -7,7 +7,6 @@ import java.io.PrintWriter;
 
 public class SimpleDateTester {
 	public static void main(String[] args) {
-		
 		// Create some simple date objects for testing
 		SimpleDate aSimpleDate = SimpleDate.of(1999, 02, 02);
 		SimpleDate lessSimpleDateYear = SimpleDate.of(1998, 02, 02);

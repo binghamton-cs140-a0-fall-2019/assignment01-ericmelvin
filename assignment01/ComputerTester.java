@@ -34,7 +34,7 @@ public class ComputerTester {
 			Computer computer32 = new Computer("HP", "AMD", 64, 2750, false, 1800.94);
 			Computer computer42 = new Computer("Compaq", "Intel i3", 8, 250, true, 799.99);
 			
-			// Print 4 computer objects to file "output.txt"
+			// Print 4 computer objects to file output.txt
 			output.println(computer12);
 			output.println(computer22);
 			output.println(computer32);

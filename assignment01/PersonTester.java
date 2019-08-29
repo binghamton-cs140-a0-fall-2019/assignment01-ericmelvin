@@ -7,7 +7,6 @@ import java.io.PrintWriter;
 
 public class PersonTester {
 	public static void main(String[] args) {
-		
 		// Create DateAndPlaceOfBirth object
 		DateAndPlaceOfBirth aDateAndPlaceOfBirth = new DateAndPlaceOfBirth(2000,
 																			01,
@@ -28,8 +27,7 @@ public class PersonTester {
 									"Sweet",
 									"123-45-6789",
 									aDateAndPlaceOfBirth,
-									anAddress
-									);
+									anAddress);
 		
 		// Output person object to screen
 		System.out.println(aPerson);
@@ -37,12 +35,13 @@ public class PersonTester {
 		// Output person object to file
 		try(var output =new PrintWriter(new FileOutputStream(
 			    new File("output.txt"), true /* true means append to file */))) {
-			output.println("\nTESTS FOR StreetUSAddress.java:");
+			output.println("\nTESTS FOR Person.java:");
 
 		//Copy all your lines above, add an extra "2" to every variable name
 		// and replace every System.out.print or System.out.println
 		// by output.print or output.println
 		
+		// Output person to file
 		output.println(aPerson);
 		
 		} catch (FileNotFoundException e) {
